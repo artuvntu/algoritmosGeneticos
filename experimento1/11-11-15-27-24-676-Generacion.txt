@@ -1,0 +1,102 @@
+Fecha: 11-11-15-27-24-676
+Generacion:   82, Poblacion  100, Evaluacion:{ Mejor:     7, Max: -200.000, Min: -240.000, Suma: -22840.000}
+    Generacion:   82, Individuo:     0 Genes: {10, 15, 10,  6,  5,  9,  6,  5,  8,  6,  3, 10,  1,  3,  7,  1}, Evaluacion: -230.000 : %1.01
+    Generacion:   82, Individuo:     1 Genes: {16,  7,  7,  3,  6,  4,  1,  8,  3, 10, 13, 16, 14,  5,  2, 11}, Evaluacion: -220.000 : %1.97
+    Generacion:   82, Individuo:     2 Genes: { 4,  4,  7,  1, 13,  9,  3,  3,  2, 13,  9,  1,  4,  1, 12,  9}, Evaluacion: -240.000 : %3.02
+    Generacion:   82, Individuo:     3 Genes: {16,  7,  7, 15, 14,  7,  1, 16,  1,  6,  4, 12,  5,  2,  2,  4}, Evaluacion: -230.000 : %4.03
+    Generacion:   82, Individuo:     4 Genes: { 4,  9,  6, 16, 13,  2, 16, 11, 12,  1,  4,  8, 10, 10, 11,  2}, Evaluacion: -240.000 : %5.08
+    Generacion:   82, Individuo:     5 Genes: {13, 11,  5,  9, 15,  9, 15,  8, 16, 12, 12,  7,  3,  7,  9,  2}, Evaluacion: -230.000 : %6.09
+    Generacion:   82, Individuo:     6 Genes: {13, 14, 11, 10,  2,  3, 14, 11, 13,  6,  9, 10,  7, 13,  6,  6}, Evaluacion: -240.000 : %7.14
+    Generacion:   82, Individuo:     7 Genes: {15,  5, 11, 11,  2,  6,  7, 14,  4, 10, 12,  2,  3,  6,  7, 16}, Evaluacion: -200.000 : %8.01
+    Generacion:   82, Individuo:     8 Genes: {13,  7,  5, 12, 15,  4,  1,  6, 14, 10, 10,  8,  5,  5,  5, 14}, Evaluacion: -230.000 : %9.02
+    Generacion:   82, Individuo:     9 Genes: { 4, 10, 11, 15, 13,  4,  3, 13,  6,  5,  9,  3, 12, 16, 11, 11}, Evaluacion: -240.000 : %10.07
+    Generacion:   82, Individuo:    10 Genes: { 1,  5,  8,  7, 15,  3,  4, 14, 16,  4, 10, 16,  2,  3,  6, 16}, Evaluacion: -220.000 : %11.03
+    Generacion:   82, Individuo:    11 Genes: {11,  3, 11, 12,  2,  8,  3,  4,  3,  5,  9,  3, 14,  5, 11, 11}, Evaluacion: -240.000 : %12.08
+    Generacion:   82, Individuo:    12 Genes: { 4, 10,  9,  1, 13,  2, 13,  2,  9,  1,  4, 11, 13, 13, 11, 15}, Evaluacion: -220.000 : %13.05
+    Generacion:   82, Individuo:    13 Genes: {13,  2, 11,  9,  8,  8,  7,  2,  2, 12, 10,  7,  5,  7,  9,  1}, Evaluacion: -220.000 : %14.01
+    Generacion:   82, Individuo:    14 Genes: { 3,  4,  7,  7, 13,  9,  8,  7, 12, 11, 12,  1,  4,  1, 13,  9}, Evaluacion: -240.000 : %15.06
+    Generacion:   82, Individuo:    15 Genes: { 8,  2, 10, 14,  8,  5,  4,  2,  6,  1, 15, 14,  5, 15,  6, 12}, Evaluacion: -230.000 : %16.07
+    Generacion:   82, Individuo:    16 Genes: { 6,  4,  7, 14,  9,  3,  7,  4,  3, 13, 10,  4,  3, 12,  8, 16}, Evaluacion: -220.000 : %17.03
+    Generacion:   82, Individuo:    17 Genes: { 4,  1, 15, 11,  2, 11,  7,  9,  1, 13,  1,  8,  2,  6,  7,  2}, Evaluacion: -230.000 : %18.04
+    Generacion:   82, Individuo:    18 Genes: { 4, 15,  7,  7, 14, 11,  4,  1, 11,  1,  2,  9, 13, 13,  8,  5}, Evaluacion: -230.000 : %19.05
+    Generacion:   82, Individuo:    19 Genes: { 4, 10,  9, 10, 13,  3,  3,  2, 13,  6,  9, 11, 13, 13, 11, 15}, Evaluacion: -230.000 : %20.05
+    Generacion:   82, Individuo:    20 Genes: {15,  5, 11,  8,  5,  9,  7,  1, 16, 14, 11,  2, 12, 16, 14,  3}, Evaluacion: -210.000 : %20.97
+    Generacion:   82, Individuo:    21 Genes: { 5,  4, 12, 11, 13, 14,  1,  2,  5,  1,  6,  4,  6, 13, 11, 13}, Evaluacion: -240.000 : %22.02
+    Generacion:   82, Individuo:    22 Genes: {10,  9,  6, 12,  2,  1,  7,  7, 11,  2, 14,  6,  3, 13, 12, 10}, Evaluacion: -230.000 : %23.03
+    Generacion:   82, Individuo:    23 Genes: { 5, 14, 12, 11, 13,  4,  7,  2,  2,  8,  5,  3, 15, 14,  8, 10}, Evaluacion: -220.000 : %23.99
+    Generacion:   82, Individuo:    24 Genes: { 5, 14, 11, 10,  6,  3,  3, 11, 13,  6,  9,  7,  3, 13,  6,  6}, Evaluacion: -240.000 : %25.04
+    Generacion:   82, Individuo:    25 Genes: {15,  7, 10, 16,  6,  9, 13,  7, 16, 12, 12,  7,  3,  7,  9,  1}, Evaluacion: -240.000 : %26.09
+    Generacion:   82, Individuo:    26 Genes: { 1, 12,  8,  7, 15,  3,  1, 11,  2,  2,  5,  8,  6,  3, 12,  2}, Evaluacion: -230.000 : %27.10
+    Generacion:   82, Individuo:    27 Genes: { 3, 16, 13,  9,  6,  3,  7,  5,  9, 10,  1,  6, 13, 12,  5,  9}, Evaluacion: -200.000 : %27.98
+    Generacion:   82, Individuo:    28 Genes: { 4,  9,  4, 11, 15,  6, 14,  2,  9, 10,  7, 11, 13, 13, 11, 15}, Evaluacion: -200.000 : %28.85
+    Generacion:   82, Individuo:    29 Genes: { 1, 12,  8,  7,  4, 16,  1, 13,  4, 13,  3,  5, 14,  3, 12,  2}, Evaluacion: -230.000 : %29.86
+    Generacion:   82, Individuo:    30 Genes: { 4,  4,  6, 10,  8, 16,  7,  7, 10,  7,  5, 15, 10,  6,  2,  9}, Evaluacion: -230.000 : %30.87
+    Generacion:   82, Individuo:    31 Genes: { 9,  5, 10,  4, 11,  3,  7,  5,  3,  5, 15,  5,  3, 11, 13,  8}, Evaluacion: -220.000 : %31.83
+    Generacion:   82, Individuo:    32 Genes: {10, 15, 10,  6,  5,  9,  6, 14,  8,  6,  8, 12,  1,  3,  7,  1}, Evaluacion: -220.000 : %32.79
+    Generacion:   82, Individuo:    33 Genes: { 3, 15, 11, 10, 15,  1, 16, 12,  3,  2, 10, 11,  3, 14,  3, 15}, Evaluacion: -230.000 : %33.80
+    Generacion:   82, Individuo:    34 Genes: {10,  9,  3, 14, 10,  3, 16, 12, 14,  4, 16,  5, 10, 10, 10, 10}, Evaluacion: -230.000 : %34.81
+    Generacion:   82, Individuo:    35 Genes: {10, 15, 10,  6,  5,  6,  6,  6, 11,  8,  3,  1,  8, 14,  7,  3}, Evaluacion: -210.000 : %35.73
+    Generacion:   82, Individuo:    36 Genes: { 2,  8,  3, 16, 14,  3,  6, 16,  8,  2,  2, 10, 14, 14,  3, 15}, Evaluacion: -220.000 : %36.69
+    Generacion:   82, Individuo:    37 Genes: { 1,  7,  3, 16,  6,  1,  1, 10, 16,  1, 11,  8,  3, 14, 13,  9}, Evaluacion: -200.000 : %37.57
+    Generacion:   82, Individuo:    38 Genes: {12,  9,  4, 14,  7,  3,  2,  9, 11, 13,  7,  4,  4,  6,  3, 10}, Evaluacion: -240.000 : %38.62
+    Generacion:   82, Individuo:    39 Genes: { 8,  5, 12,  6,  8,  2,  5, 11,  2, 13, 16, 10,  2,  5,  6,  3}, Evaluacion: -240.000 : %39.67
+    Generacion:   82, Individuo:    40 Genes: { 8,  2, 11,  2,  4,  1,  4,  2,  6,  1,  6, 14, 14, 15,  6, 12}, Evaluacion: -230.000 : %40.67
+    Generacion:   82, Individuo:    41 Genes: {10, 13,  5,  1,  2,  6, 13,  8,  7,  7,  3,  3, 14, 10,  4, 16}, Evaluacion: -210.000 : %41.59
+    Generacion:   82, Individuo:    42 Genes: { 9, 16,  4, 12,  5,  9, 10, 10,  6,  5, 13, 11, 13,  6,  3,  3}, Evaluacion: -220.000 : %42.56
+    Generacion:   82, Individuo:    43 Genes: { 9, 14,  2,  4, 11,  8,  8,  7,  8, 14,  7,  4,  1, 15,  5,  4}, Evaluacion: -230.000 : %43.56
+    Generacion:   82, Individuo:    44 Genes: { 1, 12,  8,  7, 10,  3,  5, 13, 12, 13, 14,  5, 14,  8,  6, 15}, Evaluacion: -230.000 : %44.57
+    Generacion:   82, Individuo:    45 Genes: { 6, 16, 12,  7, 14,  1,  8,  3,  1, 12, 12, 11,  3,  7,  3,  2}, Evaluacion: -240.000 : %45.62
+    Generacion:   82, Individuo:    46 Genes: {13, 16,  1,  9,  8, 14, 11, 11, 14,  2, 14,  4,  6, 12, 10, 11}, Evaluacion: -240.000 : %46.67
+    Generacion:   82, Individuo:    47 Genes: {13,  2,  5,  2,  4, 11,  3,  8,  3,  4,  6,  3, 14, 12,  2, 11}, Evaluacion: -220.000 : %47.64
+    Generacion:   82, Individuo:    48 Genes: {14, 15,  6, 16, 13,  2, 16, 11, 12,  1,  4,  3, 10,  8, 11,  8}, Evaluacion: -240.000 : %48.69
+    Generacion:   82, Individuo:    49 Genes: { 6, 10,  1,  1,  3, 14,  6, 11,  8,  1, 12,  1, 10, 11,  5,  4}, Evaluacion: -240.000 : %49.74
+    Generacion:   82, Individuo:    50 Genes: { 2,  5, 13,  3,  6,  1,  7,  8,  3, 10,  1,  4,  7, 10, 11,  7}, Evaluacion: -210.000 : %50.66
+    Generacion:   82, Individuo:    51 Genes: { 4,  6, 12, 11,  2, 11,  9,  9,  1, 13,  2,  8,  2,  1,  7, 16}, Evaluacion: -230.000 : %51.66
+    Generacion:   82, Individuo:    52 Genes: { 5, 11,  1, 10,  8, 16, 16, 12, 11, 14, 16, 14, 11,  8,  8, 11}, Evaluacion: -240.000 : %52.72
+    Generacion:   82, Individuo:    53 Genes: {14,  3,  5,  7, 11, 11,  8,  9,  6, 16, 14,  9, 16,  6,  9,  9}, Evaluacion: -240.000 : %53.77
+    Generacion:   82, Individuo:    54 Genes: {16, 16, 10,  6, 12,  7,  8,  5,  3,  4, 16,  5,  2, 14,  8, 15}, Evaluacion: -230.000 : %54.77
+    Generacion:   82, Individuo:    55 Genes: {15,  3,  1, 15, 14,  6,  6, 16,  1,  6,  4, 12,  5,  2, 10,  4}, Evaluacion: -220.000 : %55.74
+    Generacion:   82, Individuo:    56 Genes: {10, 12, 15,  8, 10,  9,  7,  8, 13,  1, 15,  4,  3, 12, 14, 11}, Evaluacion: -220.000 : %56.70
+    Generacion:   82, Individuo:    57 Genes: {11,  1, 12, 14,  6,  9, 13,  1, 16, 13,  1, 12,  8,  7,  9, 16}, Evaluacion: -220.000 : %57.66
+    Generacion:   82, Individuo:    58 Genes: { 5, 14, 10, 11,  9, 14,  7, 11,  3,  8,  5,  3, 15,  6,  8, 10}, Evaluacion: -230.000 : %58.67
+    Generacion:   82, Individuo:    59 Genes: { 9,  5, 11,  4,  2,  3,  7,  5,  3,  3, 15,  5,  3,  1, 13,  8}, Evaluacion: -220.000 : %59.63
+    Generacion:   82, Individuo:    60 Genes: { 4, 10,  6, 16, 13,  8, 14,  7, 11, 16, 16, 11,  4, 13, 11,  8}, Evaluacion: -240.000 : %60.68
+    Generacion:   82, Individuo:    61 Genes: {14,  8, 11, 13,  7,  9, 10, 13, 11, 16, 15,  9,  2,  4,  9,  2}, Evaluacion: -240.000 : %61.73
+    Generacion:   82, Individuo:    62 Genes: { 9,  3,  7, 14,  1,  4,  7,  4,  6, 11,  8,  8, 14,  5,  6, 12}, Evaluacion: -230.000 : %62.74
+    Generacion:   82, Individuo:    63 Genes: { 5,  8, 10, 13,  3, 15, 10,  3,  9,  2, 11,  3,  2,  3,  7,  9}, Evaluacion: -220.000 : %63.70
+    Generacion:   82, Individuo:    64 Genes: { 2,  6, 12,  9, 10, 16,  9, 13,  8,  9, 11,  7, 15, 14,  4,  9}, Evaluacion: -220.000 : %64.67
+    Generacion:   82, Individuo:    65 Genes: { 7,  2, 12, 11, 12, 14, 16,  2, 14, 16,  6, 12,  3,  6,  9, 10}, Evaluacion: -220.000 : %65.63
+    Generacion:   82, Individuo:    66 Genes: { 4,  5, 15,  9, 10,  9,  3,  9, 12,  5, 16,  7,  7,  4,  8,  9}, Evaluacion: -240.000 : %66.68
+    Generacion:   82, Individuo:    67 Genes: {10, 16,  1,  7,  6, 14,  3,  7, 16, 10, 12,  1, 10, 12,  5,  4}, Evaluacion: -230.000 : %67.69
+    Generacion:   82, Individuo:    68 Genes: { 3, 15, 10,  7,  6,  8,  5, 10,  4,  5, 11,  6,  2, 12,  5,  4}, Evaluacion: -230.000 : %68.70
+    Generacion:   82, Individuo:    69 Genes: { 5, 14, 11, 10,  2,  3,  3, 11, 13,  6,  9,  7,  6, 13,  6,  6}, Evaluacion: -240.000 : %69.75
+    Generacion:   82, Individuo:    70 Genes: { 7,  5,  6,  3, 15,  4, 16, 12,  2,  1,  9, 11,  2, 13,  9,  3}, Evaluacion: -240.000 : %70.80
+    Generacion:   82, Individuo:    71 Genes: {15,  7, 10,  1, 15,  3, 13,  7, 16, 12, 12,  7,  3,  7,  9,  1}, Evaluacion: -240.000 : %71.85
+    Generacion:   82, Individuo:    72 Genes: { 6, 14, 10,  9,  2,  1,  7,  5, 11,  2,  9,  4,  3, 12, 12, 10}, Evaluacion: -230.000 : %72.85
+    Generacion:   82, Individuo:    73 Genes: { 9,  3, 11, 12, 10,  4,  7,  4,  6,  1, 15,  8, 14,  5,  6, 12}, Evaluacion: -230.000 : %73.86
+    Generacion:   82, Individuo:    74 Genes: { 6, 14, 10,  9,  2,  1,  7,  5, 11,  2,  7, 10,  3, 12, 12, 10}, Evaluacion: -230.000 : %74.87
+    Generacion:   82, Individuo:    75 Genes: {13, 11,  1,  9,  8,  8,  5, 11, 14,  2, 14,  4,  6, 12, 10, 11}, Evaluacion: -240.000 : %75.92
+    Generacion:   82, Individuo:    76 Genes: { 4,  2, 13, 16,  6,  3, 16, 13, 16, 11,  5,  9, 16, 14, 16,  2}, Evaluacion: -220.000 : %76.88
+    Generacion:   82, Individuo:    77 Genes: { 9,  5, 13,  9,  6,  1,  7,  8, 12,  5, 16,  7,  7,  3,  8, 15}, Evaluacion: -220.000 : %77.85
+    Generacion:   82, Individuo:    78 Genes: {13,  4, 16, 15,  4, 14,  9,  4, 14, 16, 13,  2, 11,  2,  2, 15}, Evaluacion: -240.000 : %78.90
+    Generacion:   82, Individuo:    79 Genes: { 8,  7,  7, 14,  8,  1,  4,  6,  4,  2, 15, 14, 14, 12, 16, 12}, Evaluacion: -240.000 : %79.95
+    Generacion:   82, Individuo:    80 Genes: { 9,  5, 11,  4,  2,  3,  7,  5,  3, 12, 15,  5,  3,  1, 13,  8}, Evaluacion: -220.000 : %80.91
+    Generacion:   82, Individuo:    81 Genes: {13, 11, 11,  5, 10,  8,  5, 11, 14,  4, 12,  5, 11,  1, 10,  5}, Evaluacion: -240.000 : %81.96
+    Generacion:   82, Individuo:    82 Genes: { 8,  4,  4, 13,  8,  4,  4,  4, 13,  8,  7,  3,  3, 12, 16, 12}, Evaluacion: -240.000 : %83.01
+    Generacion:   82, Individuo:    83 Genes: { 4,  8,  5, 14, 10, 12,  3,  3,  2, 13,  9, 12,  1,  4, 12,  5}, Evaluacion: -230.000 : %84.02
+    Generacion:   82, Individuo:    84 Genes: { 9,  6, 10,  4,  2,  3,  7, 13, 12, 12,  6,  4,  3, 12, 11, 10}, Evaluacion: -220.000 : %84.98
+    Generacion:   82, Individuo:    85 Genes: {13,  5, 12,  4,  2,  3, 14,  3,  4, 16,  9, 10,  7,  7,  8,  5}, Evaluacion: -230.000 : %85.99
+    Generacion:   82, Individuo:    86 Genes: { 1,  7, 13, 11, 10,  5,  8, 12,  1, 11,  4,  2, 13, 12,  7, 16}, Evaluacion: -210.000 : %86.91
+    Generacion:   82, Individuo:    87 Genes: {16, 16, 10,  6, 12,  7,  8,  5, 16, 12, 16,  9,  2, 14,  8, 15}, Evaluacion: -230.000 : %87.92
+    Generacion:   82, Individuo:    88 Genes: {11,  1, 10, 14,  6,  9, 13,  1, 16, 12,  8, 12,  3,  7,  9, 16}, Evaluacion: -220.000 : %88.88
+    Generacion:   82, Individuo:    89 Genes: {15, 12,  5,  2, 15,  9, 15, 15, 11,  1,  2,  9, 12,  3,  8,  2}, Evaluacion: -240.000 : %89.93
+    Generacion:   82, Individuo:    90 Genes: {15, 16, 11, 11, 13,  5,  1,  2, 12, 14,  1,  2, 13, 11,  1, 11}, Evaluacion: -230.000 : %90.94
+    Generacion:   82, Individuo:    91 Genes: {15,  4, 14, 15, 14,  7,  6, 16,  1,  6,  4, 12,  5,  2, 10,  4}, Evaluacion: -230.000 : %91.94
+    Generacion:   82, Individuo:    92 Genes: { 6, 10, 10,  9,  2,  1,  3,  5, 13,  2,  9,  4,  3, 12, 12, 10}, Evaluacion: -240.000 : %92.99
+    Generacion:   82, Individuo:    93 Genes: {11,  5, 16,  4,  6, 13,  9,  1,  8,  7,  5,  3, 14, 13, 13,  5}, Evaluacion: -230.000 : %94.00
+    Generacion:   82, Individuo:    94 Genes: { 1, 16, 10,  7, 11,  7,  9,  2, 14,  8,  2, 13,  4, 14, 13,  4}, Evaluacion: -220.000 : %94.97
+    Generacion:   82, Individuo:    95 Genes: { 7,  3,  8,  5, 11, 15, 14, 13,  5, 13, 12, 15,  4, 12,  7,  6}, Evaluacion: -240.000 : %96.02
+    Generacion:   82, Individuo:    96 Genes: {16,  7,  7,  3,  6,  4,  1,  8,  3, 10, 13, 16, 14,  5,  2, 11}, Evaluacion: -220.000 : %96.98
+    Generacion:   82, Individuo:    97 Genes: {13, 11,  1,  9,  8,  8,  7, 11,  2,  2,  5,  8,  6, 12, 16, 10}, Evaluacion: -230.000 : %97.99
+    Generacion:   82, Individuo:    98 Genes: { 5, 14, 10, 11,  8,  3,  7, 13,  2,  8,  5,  3, 15, 14,  8, 10}, Evaluacion: -220.000 : %98.95
+    Generacion:   82, Individuo:    99 Genes: {11,  3, 11, 13,  2,  8,  3, 13,  3,  5,  9,  3, 12,  5, 11, 11}, Evaluacion: -240.000 : %100.00
