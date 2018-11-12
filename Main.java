@@ -40,7 +40,7 @@ public class Main {
             saver.GuardarGeneracion(nuevaPoblacion, null);
             saver.continuarGuardarCabecerasGeneracion(poblacionActual);
             if (poblacionActual.getMejorEvaluacion()>=160){break;}
-            System.out.println(String.format("Generacion: %8.3f, Maximo: %5d", poblacionActual.getMejorEvaluacion(),i));
+            System.out.println(String.format("Generacion: %5d, Maximo: %8.3f",i,poblacionActual.getMejorEvaluacion()));
         }
         saver.terminarGuardarCabecerasGeneracion();
     }
