@@ -121,8 +121,8 @@ public class OperadoresGeneticos {
             if ( gen == i+1){
                 respuesta += valorPorCorrecto;
             }
-            repetidos[gen-1]++;
             if (repetidos[gen-1]>0){respuesta -= disminucionPorRepetidos;}
+            repetidos[gen-1]++;
         }
         return respuesta;
     }
