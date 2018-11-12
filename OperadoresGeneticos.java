@@ -6,7 +6,7 @@ public class OperadoresGeneticos {
         return resultado;
     }
     static double getDRandom(double max){
-        return Main.random() * max ;
+        return  Math.random() * max ;
     }
     static int [] getIndividuoAleatorio(){
         int [] genes = new int[Main.TAMREPRESENTACION];
@@ -129,7 +129,7 @@ public class OperadoresGeneticos {
     static void giveProbabilidadRuleta(Poblacion poblacion){
         double actual = 0.0;
         ArrayList<Individuo> pGeneracion = poblacion.getGeneracion();
-        double evaMin = (poblacion.getMejorEvaluacion()-poblacion.getPeorEvaluacion())/100;
+        double evaMin = poblacion.getPeorEvaluacion();//- ((poblacion.getMejorEvaluacion()-poblacion.getPeorEvaluacion())/100);
         double normalSumatoria = poblacion.getSumatoriaTotal() - (evaMin * (double)pGeneracion.size());
         for (int i=0;i<pGeneracion.size();i++){
             actual += (pGeneracion.get(i).getEvaluacion()-evaMin)/normalSumatoria;
@@ -137,82 +137,44 @@ public class OperadoresGeneticos {
         }
     }
     static void cruzarPoblacion(Poblacion predecesora, Poblacion sucesora,int cuantos){
-        ArrayList<Integer> repetidos = new ArrayList<>();
         ArrayList<Individuo> individuos = predecesora.getGeneracion();
         int tamPoblacion = individuos.size();
         for (int i=0;i<cuantos;i++){
-            Integer cual = new Integer(getRandom(tamPoblacion)) ;
-            if (!repetidos.contains(cual)){
-                int cualC = getRandom(tamPoblacion);
-                while (cualC == cual.intValue()){
-                    cualC++;
-                    cualC = cualC%tamPoblacion;
-                }
-                int [] nuevosGenes = OperadoresGeneticos.cruzarIndividuo(individuos.get(cualC), individuos.get(cual.intValue()), getRandom(Main.MAXREPRESENTACION)+1);
-                sucesora.agregarIndividuo(nuevosGenes);
-                repetidos.add(cual);
-            }else {
-                for(int j=1;j<tamPoblacion;j++){
-                    Integer cual2 = new Integer((cual + j)%tamPoblacion);
-                    if (!repetidos.contains(cual2)){
-                        int cualC = getRandom(tamPoblacion);
-                        while (cualC == cual2.intValue()){
-                            cualC++;
-                            cualC = cualC%tamPoblacion;
-                        }
-                        int [] nuevosGenes = OperadoresGeneticos.cruzarIndividuo(individuos.get(cualC), individuos.get(cual2.intValue()), getRandom(Main.MAXREPRESENTACION)+1);
-                        sucesora.agregarIndividuo(nuevosGenes);
-                        repetidos.add(cual2);
-                        break;
-                    }
-                }
+            int cual = OperadoresGeneticos.giraRuleta(individuos);
+            int cualC = OperadoresGeneticos.giraRuleta(individuos);
+            if (cual == cualC){
+                cualC = (cualC+1)%tamPoblacion;
             }
+            int [] nuevosGenes = OperadoresGeneticos.cruzarIndividuo(individuos.get(cualC), individuos.get(cual), getRandom(Main.MAXREPRESENTACION)+1);
+            sucesora.agregarIndividuo(nuevosGenes);
         }
     }
     static void mutarPoblacion(Poblacion predecesora, Poblacion sucesora,int cuantos){
-        ArrayList<Integer> repetidos = new ArrayList<>();
         ArrayList<Individuo> individuos = predecesora.getGeneracion();
-        int tamPoblacion = individuos.size();
         for (int i=0;i<cuantos;i++){
-            Integer cual = new Integer(getRandom(tamPoblacion)) ;
-            if (!repetidos.contains(cual)){
-                int [] nuevosGenes = OperadoresGeneticos.mutarIndividuo(individuos.get(cual.intValue()), getRandom(Main.MAXREPRESENTACION)+1);
-                sucesora.agregarIndividuo(nuevosGenes);
-                repetidos.add(cual);
-            }else {
-                for(int j=1;j<tamPoblacion;j++){
-                    Integer cual2 = new Integer((cual + j)%tamPoblacion);
-                    if (!repetidos.contains(cual2)){
-                        int [] nuevosGenes = OperadoresGeneticos.mutarIndividuo(individuos.get(cual2.intValue()), getRandom(Main.MAXREPRESENTACION)+1);
-                        sucesora.agregarIndividuo(nuevosGenes);
-                        repetidos.add(cual2);
-                        break;
-                    }
-                }
-            }
+            int cual = OperadoresGeneticos.giraRuleta(individuos);
+            int [] nuevosGenes = OperadoresGeneticos.mutarIndividuo(individuos.get(cual), getRandom(Main.MAXREPRESENTACION)+1);
+            sucesora.agregarIndividuo(nuevosGenes);
         }
     }
     static void seleccionarPoblacion(Poblacion predecesora, Poblacion sucesora,int cuantos){
         ArrayList<Integer> repetidos = new ArrayList<>();
         ArrayList<Individuo> individuos = predecesora.getGeneracion();
-        int tamPoblacion = individuos.size();
         for (int i=0;i<cuantos;i++){
-            Integer cual = new Integer(getRandom(tamPoblacion)) ;
-            if (!repetidos.contains(cual)){
-                int [] nuevosGenes = individuos.get(cual).getRepresentacionArray();
-                sucesora.agregarIndividuo(nuevosGenes);
-                repetidos.add(cual);
-            }else {
-                for(int j=1;j<tamPoblacion;j++){
-                    Integer cual2 = new Integer((cual + j)%tamPoblacion);
-                    if (!repetidos.contains(cual2)){
-                        int [] nuevosGenes = individuos.get(cual2).getRepresentacionArray();
-                        sucesora.agregarIndividuo(nuevosGenes);
-                        repetidos.add(cual2);
-                        break;
-                    }
-                }
+            int cual = OperadoresGeneticos.giraRuleta(individuos);
+            while (repetidos.contains(new Integer(cual))){
+                cual = OperadoresGeneticos.giraRuleta(individuos);
             }
+            int [] nuevosGenes = individuos.get(cual).getRepresentacionArray();
+            sucesora.agregarIndividuo(nuevosGenes);
+            repetidos.add(cual);
         }
+    }
+    static int giraRuleta(ArrayList<Individuo> individuos){
+        int cual = 0;
+        Double ruleta = OperadoresGeneticos.getDRandom(100.0);
+        if (ruleta == 100.0){System.out.println("Random is over");}
+        while (individuos.get(cual).ruletaProbabilidad<ruleta){cual++;}
+        return cual;
     }
 }

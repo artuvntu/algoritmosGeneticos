@@ -53,7 +53,7 @@ public class Poblacion{
     String aCadenaCabecera(){
         String cabecera = String.format("Generacion: %4d, Poblacion %4d",generacion,individuos.size());// "Generacion: " + String.valueOf(generacion) + ", Poblacion: "+ String.valueOf(individuos.size());
         if (this.evaluada){
-            cabecera += String.format(", Evaluacion:{ Mejor: %5d, Max: %4.3f, Min: %4.3f, Suma: %7.3f}", this.mejorIndividuo,this.mejorEvaluacion,this.peorEvaluacion,this.sumatoriaTotal);
+            cabecera += String.format(", Evaluacion:{ Mejor: %4d, Max: %8.3f, Min: %8.3f, Suma: %11.3f}", this.mejorIndividuo,this.mejorEvaluacion,this.peorEvaluacion,this.sumatoriaTotal);
         }else {
             cabecera += ", No Evaluada";
         }

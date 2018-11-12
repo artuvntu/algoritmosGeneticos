@@ -43,7 +43,7 @@ public class Individuo {
     }
 
     String aCadena(){
-        String resultado = String.format("Generacion: %4d, Individuo: %5d Genes: {%2d", this.generacion,this.idIndividuo,this.representacion.get(0));
+        String resultado = String.format("Generacion: %4d, Individuo: %4d Genes: {%2d", this.generacion,this.idIndividuo,this.representacion.get(0));
         for (int i=1;i<TAMREPRESENTACION;i++){
             resultado += String.format(", %2d", this.representacion.get(i));
         }
