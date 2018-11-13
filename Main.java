@@ -39,8 +39,8 @@ public class Main {
             OperadoresGeneticos.evaluarPoblacionEstandar(poblacionActual,aumentoCorrecto,disminucionDuplicado);
             saver.GuardarGeneracion(nuevaPoblacion, String.valueOf(i));
             saver.continuarGuardarCabecerasGeneracion(poblacionActual);
-            if (poblacionActual.getMejorEvaluacion()>=160){break;}
             System.out.println(String.format("Generacion: %5d, Maximo: %8.3f",i,poblacionActual.getMejorEvaluacion()));
+            if (poblacionActual.getMejorEvaluacion()>=160){break;}
         }
         saver.terminarGuardarCabecerasGeneracion();
     }
